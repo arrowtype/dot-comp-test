@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="1" maximum="700" default="700"/>
+  </axes>
+  <sources>
+    <source filename="Dot_Comp_Test-Hairline.ufo" familyname="Dot Comp Test" stylename="Hairline">
+      <location>
+        <dimension name="Weight" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="Dot_Comp_Test-Thin-Support.ufo" familyname="Dot Comp Test" stylename="Hairline">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="Dot_Comp_Test-Bold.ufo" familyname="Dot Comp Test" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="Dot Comp Test" stylename="Hairline" filename="instances/Dot_Comp_Test-Hairline.ufo">
+      <location>
+        <dimension name="Weight" xvalue="1"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="Thin" filename="instances/Dot_Comp_Test-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="ExtraLight" filename="instances/Dot_Comp_Test-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="Light" filename="instances/Dot_Comp_Test-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="Regular" filename="instances/Dot_Comp_Test-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="Medium" filename="instances/Dot_Comp_Test-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="SemiBold" filename="instances/Dot_Comp_Test-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance familyname="Dot Comp Test" stylename="Bold" filename="instances/Dot_Comp_Test-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>com.letterror.mathModelPref</key>
+      <string>previewVarLib</string>
+    </dict>
+  </lib>
+</designspace>
